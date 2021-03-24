@@ -1,0 +1,38 @@
+/* global */
+* { margin: 0; }
+a { text-decoration: none; }
+h2 { margin: 0.3em auto; }
+span { display: block; }
+section {
+    border-top: solid 4px rgb(16, 115, 207);
+    margin: 1em auto;
+}
+section > ul {
+    margin: 0.3em auto;
+}
+section span:first-child {
+    font-weight: bold;
+}
+li {
+    position: relative;
+    margin-right: 1em;
+}
+li:last-child {
+    margin-bottom: 0.5em;
+}
+time {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-style: italic;
+}
+
+/* header */
+h1 {text-align: center; margin: 0.3em;}
+address {text-align: right; position: relative;}
+address span:first-child { position: absolute; left: 0;}
+
+/* skills */
+#skills span {
+    text-indent: 3em;
+ }
